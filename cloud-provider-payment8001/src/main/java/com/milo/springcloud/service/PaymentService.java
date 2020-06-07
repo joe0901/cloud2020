@@ -6,4 +6,6 @@ public interface PaymentService {
     int create(Payment payment);
 
     Payment getPaymentById(Long id);
+
+    String paymentCircuitBreaker( Integer id);
 }
